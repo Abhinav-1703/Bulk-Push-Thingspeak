@@ -5,10 +5,10 @@
 
 #define FORMAT_SPIFFS_IF_FAILED true
 
-const char* ssid = "GHOSTLAP";
-const char* password = "Ghostlap";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxxx";
 const char* server = "http://api.thingspeak.com/channels/YOUR_CHANNEL_ID/bulk_update.json";
-const char* writeAPIKey = "EY53TXWC5D8S4L0N";
+const char* writeAPIKey = "xxxxxxx";
 
 void listDir(fs::FS &fs, const char *dirname, uint8_t levels) {
   Serial.printf("Listing directory: %s\r\n", dirname);
